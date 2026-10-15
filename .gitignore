@@ -1,0 +1,98 @@
+# ============================================
+# Dependencies (Frontend & Node.js)
+# ============================================
+node_modules/
+*/node_modules/
+.pnp
+.pnp.js
+
+# Build Outputs & Bundles
+dist/
+dist-ssr/
+frontend/dist/
+build/
+*.local
+
+# Cache directories
+.cache/
+.vite/
+frontend/.vite/
+.eslintcache
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# Python & Backend (FastAPI / Uvicorn)
+# ============================================
+__pycache__/
+*/__pycache__/
+*/**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ============================================
+# Environment Variables & Secrets
+# ============================================
+.env
+.env.*
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+*.env
+# Keep template/example files tracked
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# ============================================
+# Local Tools, Binaries & Large Archives
+# ============================================
+tools/
+*.zip
+node.zip
+*.tar.gz
+*.rar
+
+# ============================================
+# IDE, Editor & OS Files
+# ============================================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
